@@ -12,4 +12,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (void) setStatus:(unsigned int) status;
+
 @end

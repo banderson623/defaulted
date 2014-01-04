@@ -18,6 +18,7 @@
 		B1D60E651877BEE800F95EFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D60E441877BEE800F95EFE /* Cocoa.framework */; };
 		B1D60E6D1877BEE800F95EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1D60E6B1877BEE800F95EFE /* InfoPlist.strings */; };
 		B1D60E6F1877BEE800F95EFE /* DefaultedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D60E6E1877BEE800F95EFE /* DefaultedTests.m */; };
+		B1D60E7B1877C07000F95EFE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D60E7A1877C07000F95EFE /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B1D60E6A1877BEE800F95EFE /* DefaultedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DefaultedTests-Info.plist"; sourceTree = "<group>"; };
 		B1D60E6C1877BEE800F95EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1D60E6E1877BEE800F95EFE /* DefaultedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultedTests.m; sourceTree = "<group>"; };
+		B1D60E7A1877C07000F95EFE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D60E7B1877C07000F95EFE /* IOKit.framework in Frameworks */,
 				B1D60E451877BEE800F95EFE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		B1D60E431877BEE800F95EFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1D60E7A1877C07000F95EFE /* IOKit.framework */,
 				B1D60E441877BEE800F95EFE /* Cocoa.framework */,
 				B1D60E631877BEE800F95EFE /* XCTest.framework */,
 				B1D60E461877BEE800F95EFE /* Other Frameworks */,
